@@ -227,13 +227,13 @@
 #   t.integer "wordcount"
 # end
 
-Bio.create!([
-  {organization_id: 1, title: "Executive Director", first_name: "Elspeth", last_name: "Tascioni", text: "Elspeth Tascioni has worked with MIRA for the past eight years, first as Director of Client Services and most recently as Executive Director. She has over twenty-five years of experience in the nonprofit sector, including five years with the Heartland Health Alliance as Director of Client Services. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At risus viverra adipiscing at in tellus integer feugiat. Nunc congue nisi vitae suscipit tellus mauris a. Vulputate dignissim suspendisse in est. Scelerisque eu ultrices vitae auctor. Cursus sit amet dictum sit amet justo. Eget nunc scelerisque viverra mauris in. Vivamus arcu felis bibendum ut tristique. Aliquam ut porttitor leo a diam sollicitudin tempor. Scelerisque purus semper eget duis. Ut aliquam purus sit amet luctus venenatis. Egestas erat imperdiet sed euismod nisi porta. Tempus quam pellentesque nec nam aliquam sem et. Velit egestas dui id ornare. Quam quisque id diam vel quam. Aliquet porttitor lacus luctus accumsan. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Risus at ultrices mi tempus. Et malesuada fames ac turpis.", wordcount: 125},
-  {organization_id: 1, title: "Director of Client Services", first_name: "Marilee", last_name: "Cooper", text: "Marilee Cooper has worked with MIRA as Director of Client Services for four years. Previously, she worked as the director of Chicago House's community supported living program, where she was Nunc faucibus a pellentesque sit. Dui faucibus in ornare quam viverra orci sagittis eu volutpat. Morbi tristique senectus et netus et malesuada. Euismod lacinia at quis risus sed vulputate odio ut. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet. Nisi vitae suscipit tellus mauris. Urna id volutpat lacus laoreet non curabitur gravida. Massa placerat duis ultricies lacus. Feugiat nibh sed pulvinar proin gravida hendrerit. Quis commodo odio aenean sed adipiscing diam. Egestas fringilla phasellus faucibus scelerisque eleifend donec. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et ligula. Mattis vulputate enim nulla aliquet porttitor lacus luctus.", wordcount: },
-  {organization_id: 1, title: "Director of Legal Services", first_name: "Osman", last_name: "Almasi", text: "Osman Almasi obtainded his law degree from the University of Chicago, and subsequently worked as an associate with Feldman and Associates, the largest immigration law firm in Chicago. He has Sit amet massa vitae tortor condimentum lacinia quis vel. Sit amet consectetur adipiscing elit ut aliquam purus sit amet. Amet justo donec enim diam vulputate ut pharetra sit. Sollicitudin nibh sit amet commodo nulla. At varius vel pharetra vel turpis nunc eget lorem dolor. Consequat semper viverra nam libero justo laoreet sit amet cursus. Etiam erat velit scelerisque in dictum non consectetur a. Dui accumsan sit amet nulla facilisi. Cum sociis natoque penatibus et magnis dis parturient. Placerat in egestas erat imperdiet sed. Adipiscing tristique risus nec feugiat in.", wordcount: },
-  {organization_id: 1, title: "Director of Education", first_name: "Aminah", last_name: "Husseini", text: "Aminah Husseini has worked for MIRA for twelve years, and is the founder of MIRA's educational programs. She has over ten years of experience as a teacher in the Chicago Public School System, as well as a certificaiton in Ultricies lacus sed turpis tincidunt id. Ac turpis egestas maecenas pharetra convallis posuere. Vitae auctor eu augue ut lectus. Sollicitudin nibh sit amet commodo. Habitant morbi tristique senectus et netus. Pretium quam vulputate dignissim suspendisse in est ante in. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget. Fusce ut placerat orci nulla pellentesque dignissim. Nulla porttitor massa id neque aliquam vestibulum morbi. Arcu dui vivamus arcu felis bibendum ut tristique et.", wordcount: },
-  {organization_id: 1, title: "Office Manager", first_name: "Zaynab", last_name: "Khalifa", text: "Zaynab Khalifa has worked for MIRA since its establishment in 2003, and Fermentum et sollicitudin ac orci. Ultrices mi tempus imperdiet nulla. Habitasse platea dictumst quisque sagittis. In dictum non consectetur a. Varius sit amet mattis vulputate enim nulla. Eget dolor morbi non arcu risus quis. Mattis rhoncus urna neque viverra justo nec ultrices dui sapien. Id faucibus nisl tincidunt eget nullam. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit. Arcu felis bibendum ut tristique et egestas quis ipsum suspendisse. Ultricies tristique nulla aliquet enim tortor at auctor. Pellentesque adipiscing commodo elit at. Ullamcorper malesuada proin libero nunc consequat interdum varius sit. Leo urna molestie at elementum eu. Arcu cursus vitae congue mauris rhoncus aenean vel elit. Habitasse platea dictumst vestibulum rhoncus. Volutpat consequat mauris nunc congue nisi.", wordcount: },
-])
+# Bio.create!([
+#   {organization_id: 1, title: "Executive Director", first_name: "Elspeth", last_name: "Tascioni", text: "Elspeth Tascioni has worked with MIRA for the past eight years, first as Director of Client Services and most recently as Executive Director. She has over twenty-five years of experience in the nonprofit sector, including five years with the Heartland Health Alliance as Director of Client Services. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At risus viverra adipiscing at in tellus integer feugiat. Nunc congue nisi vitae suscipit tellus mauris a. Vulputate dignissim suspendisse in est. Scelerisque eu ultrices vitae auctor. Cursus sit amet dictum sit amet justo. Eget nunc scelerisque viverra mauris in. Vivamus arcu felis bibendum ut tristique. Aliquam ut porttitor leo a diam sollicitudin tempor. Scelerisque purus semper eget duis. Ut aliquam purus sit amet luctus venenatis. Egestas erat imperdiet sed euismod nisi porta. Tempus quam pellentesque nec nam aliquam sem et. Velit egestas dui id ornare. Quam quisque id diam vel quam. Aliquet porttitor lacus luctus accumsan. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Risus at ultrices mi tempus. Et malesuada fames ac turpis.", wordcount: 181},
+#   {organization_id: 1, title: "Director of Client Services", first_name: "Marilee", last_name: "Cooper", text: "Marilee Cooper has worked with MIRA as Director of Client Services for four years. Previously, she worked as the director of Chicago House's community supported living program, where she was Nunc faucibus a pellentesque sit. Dui faucibus in ornare quam viverra orci sagittis eu volutpat. Morbi tristique senectus et netus et malesuada. Euismod lacinia at quis risus sed vulputate odio ut. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet. Nisi vitae suscipit tellus mauris. Urna id volutpat lacus laoreet non curabitur gravida. Massa placerat duis ultricies lacus. Feugiat nibh sed pulvinar proin gravida hendrerit. Quis commodo odio aenean sed adipiscing diam. Egestas fringilla phasellus faucibus scelerisque eleifend donec. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et ligula. Mattis vulputate enim nulla aliquet porttitor lacus luctus.", wordcount: 127},
+#   {organization_id: 1, title: "Director of Legal Services", first_name: "Osman", last_name: "Almasi", text: "Osman Almasi obtainded his law degree from the University of Chicago, and subsequently worked as an associate with Feldman and Associates, the largest immigration law firm in Chicago. He has Sit amet massa vitae tortor condimentum lacinia quis vel. Sit amet consectetur adipiscing elit ut aliquam purus sit amet. Amet justo donec enim diam vulputate ut pharetra sit. Sollicitudin nibh sit amet commodo nulla. At varius vel pharetra vel turpis nunc eget lorem dolor. Consequat semper viverra nam libero justo laoreet sit amet cursus. Etiam erat velit scelerisque in dictum non consectetur a. Dui accumsan sit amet nulla facilisi. Cum sociis natoque penatibus et magnis dis parturient. Placerat in egestas erat imperdiet sed. Adipiscing tristique risus nec feugiat in.", wordcount: 119},
+#   {organization_id: 1, title: "Director of Education", first_name: "Aminah", last_name: "Husseini", text: "Aminah Husseini has worked for MIRA for twelve years, and is the founder of MIRA's educational programs. She has over ten years of experience as a teacher in the Chicago Public School System, as well as a certificaiton in Ultricies lacus sed turpis tincidunt id. Ac turpis egestas maecenas pharetra convallis posuere. Vitae auctor eu augue ut lectus. Sollicitudin nibh sit amet commodo. Habitant morbi tristique senectus et netus. Pretium quam vulputate dignissim suspendisse in est ante in. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget. Fusce ut placerat orci nulla pellentesque dignissim. Nulla porttitor massa id neque aliquam vestibulum morbi. Arcu dui vivamus arcu felis bibendum ut tristique et.", wordcount: 112},
+#   {organization_id: 1, title: "Office Manager", first_name: "Zaynab", last_name: "Khalifa", text: "Zaynab Khalifa has worked for MIRA since its establishment in 2003, and Fermentum et sollicitudin ac orci. Ultrices mi tempus imperdiet nulla. Habitasse platea dictumst quisque sagittis. In dictum non consectetur a. Varius sit amet mattis vulputate enim nulla. Eget dolor morbi non arcu risus quis. Mattis rhoncus urna neque viverra justo nec ultrices dui sapien. Id faucibus nisl tincidunt eget nullam. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit. Arcu felis bibendum ut tristique et egestas quis ipsum suspendisse. Ultricies tristique nulla aliquet enim tortor at auctor. Pellentesque adipiscing commodo elit at. Ullamcorper malesuada proin libero nunc consequat interdum varius sit. Leo urna molestie at elementum eu. Arcu cursus vitae congue mauris rhoncus aenean vel elit. Habitasse platea dictumst vestibulum rhoncus. Volutpat consequat mauris nunc congue nisi.", wordcount: 129},
+# ])
 
 # create_table "boilerplates", force: :cascade do |t|
 #   t.integer "organization_id"
@@ -245,13 +245,13 @@ Bio.create!([
 #   t.datetime "updated_at", precision: 6, null: false
 # end
 
-Boilerplate.create!([
-  {organization_id: 1, category_id: , title: "Our Mission - Capsule", text: "MIRA is a nonprofit organization serving refugees and immigrants in the Chicago area. Ultricies lacus sed turpis tincidunt id. Ac turpis egestas maecenas pharetra convallis posuere. Vitae auctor eu augue ut lectus. Sollicitudin nibh sit amet commodo. Habitant morbi tristique senectus et netus. Pretium quam vulputate dignissim suspendisse in est ante in. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget. Fusce ut placerat orci nulla pellentesque dignissim. Nulla porttitor massa id neque aliquam vestibulum morbi. Arcu dui vivamus arcu felis bibendum ut tristique et.", wordcount: },
-  {organization_id: 1, category_id: , title: "Our Mission", text: "MIRA serves refugees and immigrants in the Chicago area. Sit amet massa vitae tortor condimentum lacinia quis vel. Sit amet consectetur adipiscing elit ut aliquam purus sit amet. Amet justo donec enim diam vulputate ut pharetra sit. Sollicitudin nibh sit amet commodo nulla. At varius vel pharetra vel turpis nunc eget lorem dolor. Consequat semper viverra nam libero justo laoreet sit amet cursus. Etiam erat velit scelerisque in dictum non consectetur a. Dui accumsan sit amet nulla facilisi. Cum sociis natoque penatibus et magnis dis parturient. Placerat in egestas erat imperdiet sed. Adipiscing tristique risus nec feugiat in.", wordcount: },
-  {organization_id: 1, category_id: , title: "Financial Literacy Workshops", text: "MIRA provides financial literacy workshops to recent immigrants and refugees. These workshops are offered onsite by employees who are all native speakers of Arabic. Nunc faucibus a pellentesque sit. Dui faucibus in ornare quam viverra orci sagittis eu volutpat. Morbi tristique senectus et netus et malesuada. Euismod lacinia at quis risus sed vulputate odio ut. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet. Nisi vitae suscipit tellus mauris. Urna id volutpat lacus laoreet non curabitur gravida. Massa placerat duis ultricies lacus. Feugiat nibh sed pulvinar proin gravida hendrerit. Quis commodo odio aenean sed adipiscing diam. Egestas fringilla phasellus faucibus scelerisque eleifend donec. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et ligula. Mattis vulputate enim nulla aliquet porttitor lacus luctus.", wordcount: },
-  {organization_id: 1, category_id: , title: "Achievements 2021", text: "In 2021, MIRA provided services to a total of 4081 clients, including Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At risus viverra adipiscing at in tellus integer feugiat. Nunc congue nisi vitae suscipit tellus mauris a. Vulputate dignissim suspendisse in est. Scelerisque eu ultrices vitae auctor. Cursus sit amet dictum sit amet justo. Eget nunc scelerisque viverra mauris in. Vivamus arcu felis bibendum ut tristique. Aliquam ut porttitor leo a diam sollicitudin tempor. Scelerisque purus semper eget duis. Ut aliquam purus sit amet luctus venenatis. Egestas erat imperdiet sed euismod nisi porta. Tempus quam pellentesque nec nam aliquam sem et. Velit egestas dui id ornare. Quam quisque id diam vel quam. Aliquet porttitor lacus luctus accumsan. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Risus at ultrices mi tempus. Et malesuada fames ac turpis.", wordcount: },
-  {organization_id: 1, category_id: , title: "History", text: "MIRA was established in 2003 to provide assistance to refugees and immigrants in the Chicago area. Since then Fermentum et sollicitudin ac orci. Ultrices mi tempus imperdiet nulla. Habitasse platea dictumst quisque sagittis. In dictum non consectetur a. Varius sit amet mattis vulputate enim nulla. Eget dolor morbi non arcu risus quis. Mattis rhoncus urna neque viverra justo nec ultrices dui sapien. Id faucibus nisl tincidunt eget nullam. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit. Arcu felis bibendum ut tristique et egestas quis ipsum suspendisse. Ultricies tristique nulla aliquet enim tortor at auctor. Pellentesque adipiscing commodo elit at. Ullamcorper malesuada proin libero nunc consequat interdum varius sit. Leo urna molestie at elementum eu. Arcu cursus vitae congue mauris rhoncus aenean vel elit. Habitasse platea dictumst vestibulum rhoncus. Volutpat consequat mauris nunc congue nisi.", wordcount: },
-])
+# Boilerplate.create!([
+#   {organization_id: 1, category_id: 17, title: "Our Mission - Capsule", text: "MIRA is a nonprofit organization serving refugees and immigrants in the Chicago area. Ultricies lacus sed turpis tincidunt id. Ac turpis egestas maecenas pharetra convallis posuere. Vitae auctor eu augue ut lectus. Sollicitudin nibh sit amet commodo. Habitant morbi tristique senectus et netus. Pretium quam vulputate dignissim suspendisse in est ante in. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget. Fusce ut placerat orci nulla pellentesque dignissim. Nulla porttitor massa id neque aliquam vestibulum morbi. Arcu dui vivamus arcu felis bibendum ut tristique et.", wordcount: 86},
+#   {organization_id: 1, category_id: 17, title: "Our Mission", text: "MIRA serves refugees and immigrants in the Chicago area. Sit amet massa vitae tortor condimentum lacinia quis vel. Sit amet consectetur adipiscing elit ut aliquam purus sit amet. Amet justo donec enim diam vulputate ut pharetra sit. Sollicitudin nibh sit amet commodo nulla. At varius vel pharetra vel turpis nunc eget lorem dolor. Consequat semper viverra nam libero justo laoreet sit amet cursus. Etiam erat velit scelerisque in dictum non consectetur a. Dui accumsan sit amet nulla facilisi. Cum sociis natoque penatibus et magnis dis parturient. Placerat in egestas erat imperdiet sed. Adipiscing tristique risus nec feugiat in.", wordcount: 98},
+#   {organization_id: 1, category_id: 2, title: "Financial Literacy Workshops", text: "MIRA provides financial literacy workshops to recent immigrants and refugees. These workshops are offered onsite by employees who are all native speakers of Arabic. Nunc faucibus a pellentesque sit. Dui faucibus in ornare quam viverra orci sagittis eu volutpat. Morbi tristique senectus et netus et malesuada. Euismod lacinia at quis risus sed vulputate odio ut. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet. Nisi vitae suscipit tellus mauris. Urna id volutpat lacus laoreet non curabitur gravida. Massa placerat duis ultricies lacus. Feugiat nibh sed pulvinar proin gravida hendrerit. Quis commodo odio aenean sed adipiscing diam. Egestas fringilla phasellus faucibus scelerisque eleifend donec. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et ligula. Mattis vulputate enim nulla aliquet porttitor lacus luctus.", wordcount: 121},
+#   {organization_id: 1, category_id: 17, title: "Achievements 2021", text: "In 2021, MIRA provided services to a total of 4081 clients, including Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At risus viverra adipiscing at in tellus integer feugiat. Nunc congue nisi vitae suscipit tellus mauris a. Vulputate dignissim suspendisse in est. Scelerisque eu ultrices vitae auctor. Cursus sit amet dictum sit amet justo. Eget nunc scelerisque viverra mauris in. Vivamus arcu felis bibendum ut tristique. Aliquam ut porttitor leo a diam sollicitudin tempor. Scelerisque purus semper eget duis. Ut aliquam purus sit amet luctus venenatis. Egestas erat imperdiet sed euismod nisi porta. Tempus quam pellentesque nec nam aliquam sem et. Velit egestas dui id ornare. Quam quisque id diam vel quam. Aliquet porttitor lacus luctus accumsan. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Risus at ultrices mi tempus. Et malesuada fames ac turpis.", wordcount: 146},
+#   {organization_id: 1, category_id: 17, title: "History", text: "MIRA was established in 2003 to provide assistance to refugees and immigrants in the Chicago area. Since then Fermentum et sollicitudin ac orci. Ultrices mi tempus imperdiet nulla. Habitasse platea dictumst quisque sagittis. In dictum non consectetur a. Varius sit amet mattis vulputate enim nulla. Eget dolor morbi non arcu risus quis. Mattis rhoncus urna neque viverra justo nec ultrices dui sapien. Id faucibus nisl tincidunt eget nullam. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit. Arcu felis bibendum ut tristique et egestas quis ipsum suspendisse. Ultricies tristique nulla aliquet enim tortor at auctor. Pellentesque adipiscing commodo elit at. Ullamcorper malesuada proin libero nunc consequat interdum varius sit. Leo urna molestie at elementum eu. Arcu cursus vitae congue mauris rhoncus aenean vel elit. Habitasse platea dictumst vestibulum rhoncus. Volutpat consequat mauris nunc congue nisi.", wordcount: 135},
+# ])
 
 # create_table "categories", force: :cascade do |t|
 #   t.integer "organization_id"
@@ -260,16 +260,16 @@ Boilerplate.create!([
 #   t.datetime "updated_at", precision: 6, null: false
 # end
 
-Category.create!([
-  {organization_id: 1, name: "Who We Are",},
-  {organization_id: 1, name: "Our Clients",},
-  {organization_id: 1, name: "Our Mission",},
-  {organization_id: 1, name: "Programs",},
-  {organization_id: 1, name: "Education",},
-  {organization_id: 1, name: "Financial Literacy",},
-  {organization_id: 1, name: "Legal Services",},
-  {organization_id: 1, name: "Cultural Events",},
-])
+# Category.create!([
+#   {organization_id: 1, name: "Who We Are",},
+#   {organization_id: 1, name: "Our Clients",},
+#   {organization_id: 1, name: "Our Mission",},
+#   {organization_id: 1, name: "Programs",},
+#   {organization_id: 1, name: "Education",},
+#   {organization_id: 1, name: "Financial Literacy",},
+#   {organization_id: 1, name: "Legal Services",},
+#   {organization_id: 1, name: "Cultural Events",},
+# ])
 
 # create_table "funding_orgs", force: :cascade do |t|
 #   t.string "website"
@@ -279,13 +279,13 @@ Category.create!([
 #   t.datetime "updated_at", precision: 6, null: false
 # end
 
-FundingOrg.create!([
-  {organization_id: 1, name: "Chicago Refugee Association", website: "cra.org"},
-  {organization_id: 1, name: "Great Lakes Mutual Aid Foundation", website: "greatlakesmaf.org"},
-  {organization_id: 1, name: "Welcome Home Foundation", website: "welcomehomefoundation.org"},
-  {organization_id: 1, name: "Illinois Refugee Assistance", website: "illinoisrefugeeassist.org"},
-  {organization_id: 1, name: "Quinn-McCormick Foundation", website: "quinnmccormick.org"},
-])
+# FundingOrg.create!([
+#   {organization_id: 1, name: "Chicago Refugee Association", website: "cra.org"},
+#   {organization_id: 1, name: "Great Lakes Mutual Aid Foundation", website: "greatlakesmaf.org"},
+#   {organization_id: 1, name: "Welcome Home Foundation", website: "welcomehomefoundation.org"},
+#   {organization_id: 1, name: "Illinois Refugee Assistance", website: "illinoisrefugeeassist.org"},
+#   {organization_id: 1, name: "Quinn-McCormick Foundation", website: "quinnmccormick.org"},
+# ])
 
 # create_table "grants", force: :cascade do |t|
 #   t.integer "organization_id"
@@ -300,13 +300,13 @@ FundingOrg.create!([
 #   t.string "purpose"
 # end
 
-Grant.create!([
-  {organization_id: 1, title: "Financial Literacy Grants - 2021", purpose: "financial literacy", funding_org_id: "", rfp_url: "", deadline: "2021-11-24 11:07:00", submitted: false, successful: false},
-  {organization_id: 1, title: "General Funding Grant - June 2021", purpose: "general funding", funding_org_id: "", rfp_url: "", deadline: "2021-11-24 11:07:00", submitted: false, successful: false},
-  {organization_id: 1, title: "Pre-K Enrichment Grant - 2020-2021", purpose: "education", funding_org_id: "", rfp_url: "", deadline: "2021-11-24 11:07:00", submitted: false, successful: false},
-  {organization_id: 1, title: "Cultural Events Grant - 2021", purpose: "cultural programming", funding_org_id: "", rfp_url: "", deadline: "2021-11-24 11:07:00", submitted: false, successful: false},
-  {organization_id: 1, title: "General Funding and Operations Grant - 2021", purpose: "general funding", funding_org_id: "", rfp_url: "", deadline: "2021-11-24 11:07:00", submitted: false, successful: false},
-])
+# Grant.create!([
+#   {organization_id: 1, title: "Financial Literacy Grants - 2021", purpose: "financial literacy", funding_org_id: 11, rfp_url: "foundation.org", deadline: "2021-11-24 11:07:00", submitted: false, successful: false},
+#   {organization_id: 1, title: "General Funding Grant - June 2021", purpose: "general funding", funding_org_id: 12, rfp_url: "foundation.org", deadline: "2021-11-24 11:07:00", submitted: false, successful: false},
+#   {organization_id: 1, title: "Pre-K Enrichment Grant - 2020-2021", purpose: "education", funding_org_id: 14, rfp_url: "foundation.org", deadline: "2021-11-24 11:07:00", submitted: false, successful: false},
+#   {organization_id: 1, title: "Cultural Events Grant - 2021", purpose: "cultural programming", funding_org_id: 14, rfp_url: "foundation.org", deadline: "2021-11-24 11:07:00", submitted: false, successful: false},
+#   {organization_id: 1, title: "General Funding and Operations Grant - 2021", purpose: "general funding", funding_org_id: 15, rfp_url: "foundation.org", deadline: "2021-11-24 11:07:00", submitted: false, successful: false},
+# ])
 
 # create_table "sections", force: :cascade do |t|
 #   t.integer "grant_id"
@@ -319,11 +319,11 @@ Grant.create!([
 # end
 
 Section.create!([
-  {},
-])
-
-Section.create!([
-  {},
+  {grant_id: 63, title: "Who We Are", text: "MIRA is a nonprofit organization dedicated to serving refugees and immigrants in the Chicago area. Since 2003 Fermentum et sollicitudin ac orci. Ultrices mi tempus imperdiet nulla. Habitasse platea dictumst quisque sagittis. In dictum non consectetur a. Varius sit amet mattis vulputate enim nulla. Eget dolor morbi non arcu risus quis. Mattis rhoncus urna neque viverra justo nec ultrices dui sapien. Id faucibus nisl tincidunt eget nullam. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit. Arcu felis bibendum ut tristique et egestas quis ipsum suspendisse. Ultricies tristique nulla aliquet enim tortor at auctor. Pellentesque adipiscing commodo elit at. Ullamcorper malesuada proin libero nunc consequat interdum varius sit. Leo urna molestie at elementum eu. Arcu cursus vitae congue mauris rhoncus aenean vel elit. Habitasse platea dictumst vestibulum rhoncus. Volutpat consequat mauris nunc congue nisi", sort_order: 1, wordcount: 134},
+  {grant_id: 63, title: "Our Clients", text: "MIRA’s clients are immigrants and refugees from the Middle East, including Ultricies lacus sed turpis tincidunt id. Ac turpis egestas maecenas pharetra convallis posuere. Vitae auctor eu augue ut lectus. Sollicitudin nibh sit amet commodo. Habitant morbi tristique senectus et netus. Pretium quam vulputate dignissim suspendisse in est ante in. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget. Fusce ut placerat orci nulla pellentesque dignissim. Nulla porttitor massa id neque aliquam vestibulum morbi. Arcu dui vivamus arcu felis bibendum ut tristique et", sort_order: 1, wordcount: 84},
+  {grant_id: 63, title: "How Our Goals Match Your Mission", text: "MIRA’s mission is to provide immigrants and refugees with the resources they need to establish themselves in the United States. Sit amet massa vitae tortor condimentum lacinia quis vel. Sit amet consectetur adipiscing elit ut aliquam purus sit amet. Amet justo donec enim diam vulputate ut pharetra sit. Sollicitudin nibh sit amet commodo nulla. At varius vel pharetra vel turpis nunc eget lorem dolor. Consequat semper viverra nam libero justo laoreet sit amet cursus. Etiam erat velit scelerisque in dictum non consectetur a. Dui accumsan sit amet nulla facilisi. Cum sociis natoque penatibus et magnis dis parturient. Placerat in egestas erat imperdiet sed. Adipiscing tristique risus nec feugiat in", sort_order: 1, wordcount: 109},
+  {grant_id: 63, title: "Request for Funding", text: "We are seeking funding in the amount of $5000 to Nunc faucibus a pellentesque sit. Dui faucibus in ornare quam viverra orci sagittis eu volutpat. Morbi tristique senectus et netus et malesuada. Euismod lacinia at quis risus sed vulputate odio ut. Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet. Nisi vitae suscipit tellus mauris. Urna id volutpat lacus laoreet non curabitur gravida. Massa placerat duis ultricies lacus. Feugiat nibh sed pulvinar proin gravida hendrerit. Quis commodo odio aenean sed adipiscing diam. Egestas fringilla phasellus faucibus scelerisque eleifend donec. Commodo quis imperdiet massa tincidunt nunc pulvinar sapien et ligula. Mattis vulputate enim nulla aliquet porttitor lacus luctus", sort_order: 1, wordcount: 142},
+  {grant_id: 63, title: "Funding Objectives", text: "With the requested funding, we plan to augment Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At risus viverra adipiscing at in tellus integer feugiat. Nunc congue nisi vitae suscipit tellus mauris a. Vulputate dignissim suspendisse in est. Scelerisque eu ultrices vitae auctor. Cursus sit amet dictum sit amet justo. Eget nunc scelerisque viverra mauris in. Vivamus arcu felis bibendum ut tristique. Aliquam ut porttitor leo a diam sollicitudin tempor. Scelerisque purus semper eget duis. Ut aliquam purus sit amet luctus venenatis. Egestas erat imperdiet sed euismod nisi porta.", sort_order: 1, wordcount: 135},
 ])
 
 # create_table "reports", force: :cascade do |t|
@@ -336,7 +336,8 @@ Section.create!([
 # end
 
 Report.create!([
-  {},
+  {grant_id: 63, title: "Report on Financial Literacy Grants - Mid-Year 2021", deadline: "2021-11-24 11:07:00"},
+  {grant_id: 63, title: "Report on Financial Literacy Grants - End-of-Year 2021", deadline: "2021-11-24 11:07:00"},
 ])
 
 # create_table "report_sections", force: :cascade do |t|
@@ -349,13 +350,13 @@ Report.create!([
 #   t.integer "wordcount"
 # end
 
-ReportSection.create!([
-  {},
-])
+# ReportSection.create!([
+#   {},
+# ])
 
-ReportSection.create!([
-    {},
-    ])
+# ReportSection.create!([
+#     {},
+#     ])
 
   # OrganizationUser.create!([
 #   {user_id: 8, organization_id: 1},
