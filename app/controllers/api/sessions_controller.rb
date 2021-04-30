@@ -3,23 +3,42 @@ class Api::SessionsController < ApplicationController
   def create
     user = User.find_by(email: params[:email])
     if user && user.authenticate(params[:password])
-      jwt = JWT.encode(
-        {
-          user_id: user.id, # the data to encode
-          exp: 24.hours.from_now.to_i # the expiration time
-        },
-        Rails.application.credentials.fetch(:secret_key_base), # the secret key
-        "HS256" # the encryption algorithm
-      )
-      render json: { jwt: jwt, email: user.email, user_id: user.id }, status: :created
+      token = JWT.encode(
+            {
+              user_id: user.id, # the data to encode
+              exp: 24.hours.from_now.to_i # the expiration time
+            },
+            Rails.application.credentials.fetch(:secret_key_base), # the secret key
+            "HS256" # the encryption algorithm
+          )
+      cookies[:jwt] = {
+        value: token,
+        httponly: true,
+        same_site: :none,
+        secure: false
+      }
+      puts cookies[:jwt]
+      render json: { email: user.email, user_id: user.id }, status: :created
     else
       render json: {}, status: :unauthorized
     end
+    # conventional jwt token method (switched to httpcookies auth/sessions create method):
+    # if user && user.authenticate(params[:password])
+    #   jwt = JWT.encode(
+    #     {
+    #       user_id: user.id, # the data to encode
+    #       exp: 24.hours.from_now.to_i # the expiration time
+    #     },
+    #     Rails.application.credentials.fetch(:secret_key_base), # the secret key
+    #     "HS256" # the encryption algorithm
+    #   )
+    #   render json: { jwt: jwt, email: user.email, user_id: user.id }, status: :created
+    # else
+    #   render json: {}, status: :unauthorized
+    # end
   end
 
   def get_session
-    # https://github.com/jwt/ruby-jwt
-    # eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo4LCJleHAiOjE2MTkzMDQ5MTh9.XLDJh0WSFeQKFEqRtG87HVbHadCmpCKvil4kddWaSzQ
     begin
       authorization_header = request.headers["Authorization"]
       jwt = authorization_header.split(" ")[1]
