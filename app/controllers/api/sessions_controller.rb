@@ -11,12 +11,27 @@ class Api::SessionsController < ApplicationController
             Rails.application.credentials.fetch(:secret_key_base), # the secret key
             "HS256" # the encryption algorithm
           )
-      cookies[:jwt] = {
-        value: token,
-        httponly: true,
-        same_site: :none,
-        secure: false
-      }
+      # cookies[:jwt] = {
+      #   value: token,
+      #   # httponly: true,
+      #   same_site: 'None',
+      #   secure: false
+      # }
+      response.set_cookie(
+        :jwt, 
+        {
+          value: token,
+          httponly: true,
+          secure: true
+        }
+      )
+      # response.set_cookie(
+      #   @name.to_sym,
+      #   value: @value,
+      #   expires: @expire,
+      #   httponly: true,
+      #   secure: true
+      # )
       puts cookies[:jwt]
       render json: { email: user.email, user_id: user.id }, status: :created
     else
