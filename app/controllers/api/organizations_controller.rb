@@ -10,11 +10,19 @@ class Api::OrganizationsController < ApplicationController
   end
 
   def create
+    unless params[:name]
+      return render json: { errors: ["Missing name parameter"] }, status: :unprocessable_entity
+    end
+
     @organization = Organization.new(
       name: params[:name],
     )
     if @organization.save
-      render "show.json.jb"
+      @organization_user = OrganizationUser.create(
+        organization_id: @organization.id,
+        user_id: current_user.id
+      )
+      render "show.json.jb", status: 201
     else
       render json: { errors: @organization.errors.messages }, status: :unprocessable_entity
     end
